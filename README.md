@@ -1,7 +1,7 @@
-# DDoS_Attack(for beginner)
-learning about DDoS attack(for internet security learning)
-WARNING: before you learn,remember DO NOT ever try to DDoS Attack someone,it is illegal!
-## testing by VM(simple way,not true DDoS attack)
+# SSH Remote Control/Execute
+learning about how to use SSH to remote control devices(for internet security learning)
+WARNING: before you learn,remember DO NOT ever try to do this to someone,it is illegal!
+## testing by VM(simple way,only for example)
 first, you need a virtual machine and install debian-based distro like kali
 then active ssh service
 ```bash
