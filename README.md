@@ -1,4 +1,4 @@
-# DDoS_Attack
+# DDoS_Attack(for beginner)
 learnign about DDoS attack(for internet security learning)
 ## testing by VM(simple way,not true DDoS attack)
 first, you need a virtual machine and install debian-based distro like kali
