@@ -1,25 +1,13 @@
-# SSH Remote Control/Execute
-learning about how to use SSH to remote control devices(for internet security learning)
-WARNING: before you learn,remember DO NOT ever try to do this to someone,it is illegal!
-## testing by VM(simple way,only for example)
-first, you need a virtual machine and install debian-based distro like kali
-then active ssh service
+# Internet Sercurity_learning
+welcome to the ISL project,you are reading the README.md in the root now
+directory:
+> SSH Remote
+
+for personal contact:
 ```bash
-sudo apt update
-sudo apt install openssh-server
-sudo systemctl start ssh
-sudo systemctl enable ssh
+zitingliang18@gmail.com
 ```
-second,check the ip address
+if you are looking for other project
 ```bash
-ip addr
+https://github.com/AzenDev2026/AzenDev
 ```
-third, connect to your VM
-```bash
-ssh username@192.168.1.100
-```
-last,excute
-```bash
-ssh username@192.168.1.100 "DISPLAY=:0 gnome-terminal -- bash -c 'echo hello world; sleep 10'"
-```
-then in the VM it will pop out a termianl and says "hello world"
